@@ -171,7 +171,7 @@ int main(int argc, char **argv)
   if (argc < 2)
     return usage(argv);
 
-  header = malloc(HEADER_SIZE);
+  header = calloc(HEADER_SIZE, 1);
   strcpy(header, HEADER);
 
   char *op = argv[1];
