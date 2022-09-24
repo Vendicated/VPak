@@ -1,7 +1,8 @@
 # VPak
 
 Simple tool that packs multiple files into one.
-No compression, file names and content are the only info stored.
+
+No compression. File names and content are the only info stored.
 Also no error handling :trollface:
 
 ## Should I use this?
@@ -16,3 +17,9 @@ node pack.mjs file1 file2 ... outfile
 #### Unpack
 
 node unpack.mjs bundlefile
+
+## Limitations
+
+Filename must be <= 256 Bytes
+
+Size of individual files must be <= 4GB
