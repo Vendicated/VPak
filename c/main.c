@@ -8,8 +8,8 @@
 
 const int BUF_SIZE = 1024 * 16;
 
-const char *HEADER = "VPak v1.0.0\n";
-const int HEADER_SIZE = 32;
+const char *HEADER = "VPak 1.1";
+const int HEADER_SIZE = 8;
 
 FILE *file;
 char *header;
