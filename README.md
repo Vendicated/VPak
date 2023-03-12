@@ -7,6 +7,6 @@ Also no error handling :trollface:
 
 ## Limitations
 
-Filename must be <= 256 Bytes
+Filename must be <= 255 Bytes
 
 Size of individual files must be <= 4GB
